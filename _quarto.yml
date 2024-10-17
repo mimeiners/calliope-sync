@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "Standardization of Micropython for Calliope mini"
+  author: "R. Reddy-Santha, M. Meiners"
+  date: "17.10.2024"
+
+  chapters:
+    - index.qmd
+    - docs/intro.qmd
+    - docs/summary.qmd
+    - docs/references.qmd
+
+bibliography: _bibliography/references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
